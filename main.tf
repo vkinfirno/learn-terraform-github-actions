@@ -15,7 +15,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "ACG-Terraform-Demos"
+    organization = "test-cribl-terraform"
 
     workspaces {
       name = "demo-github-actions"
